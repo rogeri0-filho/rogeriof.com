@@ -33,4 +33,4 @@ std::cout<<"I need a coffe ☕!"
 ```
 
 
-you can leave a star by clicking [here](https://github.com/rogeri0-filho/rogeriof.com.br).
+you can leave a star by clicking [here](https://github.com/rogeri0-filho/rogeriof.com).
