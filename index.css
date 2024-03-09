@@ -26,7 +26,7 @@ img {
 #edu-div {
   background-color: #192428;
   border: #192428 solid 10px;
-  border-radius: 25%;
+  border-radius: 50%;
   padding-left: 15px;
   padding-right: 15px;
   text-align: left;
@@ -94,19 +94,6 @@ img {
   font-size: 48px;
 }
 
-#institution {
-  background-color: #414c50;
-  border: #414c50 solid 10px;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  border-radius: 10px;
-  margin: 0px;
-  width: 40%;
-}
-
 #course {
   display: flex;
   flex-direction: column;
@@ -115,75 +102,3 @@ img {
   margin-right: 10%;
 }
 
-#loading {
-  position: relative;
-  width: 50%;
-  height: 10px;
-  background-color: #414c50;
-  border: #535759 solid 5px;
-  border-radius: 10px;
-}
-
-#loading > div {
-  width: 12%;
-  height: 100%;
-  border-radius: inherit;
-  background-image: linear-gradient(to right, #39ace7, #0784b5);
-}
-
-#percentage {
-  position: absolute;
-  right: 50%;
-  top: 50%;
-  transform: translateX(50%);
-  transform: translateY(-50%);
-  font-family: monospace;
-}
-
-#logo-ufal {
-  background-color: aliceblue;
-  border: solid 8px;
-  border-radius: 5px;
-}
-
-.sep {
-  height: 5px;
-  width: 50px;
-  background-image: linear-gradient(to right, #39ace7, #0784b5);
-  margin: 50px;
-  border-radius: 5px;
-}
-
-#icons {
-  display: flex;
-  justify-content: center;
-  margin-top: 15px;
-}
-
-@media only screen and (max-width: 1500px) {
-  body > * > * {
-    width: 90%;
-  }
-
-  #edu-div {
-    flex-direction: column;
-  }
-
-  #institution {
-    width: fit-content;
-    margin-bottom: 15px;
-  }
-
-  #loading {
-    margin-bottom: 15px;
-    width: 90%;
-  }
-
-  #institution > * {
-    margin: 5px;
-  }
-
-  #header {
-    height: 300px;
-  }
-}
