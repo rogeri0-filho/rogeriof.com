@@ -1,4 +1,4 @@
-body {
+<body> {
     text-align: center;
     font-family: 'Courier New', monospace;
     background-color: #0D1117;
@@ -9,6 +9,11 @@ body {
     line-height: 1.5;
     word-wrap: break-word;
 }
+    <div id ="icons">
+        <a href="https://github.com/rogeri0-filho">
+            <img id="gihub-icon" scr="https://img.icons8.com/color/50/000000/github--v1.png">
+    </div>
+</body>
 
 nav p, main div {
     text-align: center;
