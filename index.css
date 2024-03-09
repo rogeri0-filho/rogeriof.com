@@ -26,12 +26,13 @@ img {
 #edu-div {
   background-color: #192428;
   border: #192428 solid 10px;
-  border-radius: 25%;
+  border-radius: 10px; /* Alterado de 50% para 10px */
   padding-left: 15px;
   padding-right: 15px;
   text-align: left;
   position: relative;
 }
+
 
 .profile-section > label {
   position: relative;
